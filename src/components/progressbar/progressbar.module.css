@@ -1,0 +1,79 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.barContainer {
+  max-width: 900px;
+  height: 16px;
+  border-radius: 7px;
+  background: #d3ded3;
+  margin: 50px auto;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bar {
+  height: 16px;
+  width: 0%;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 9px;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  padding: 15px 0;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btnLeft {
+  width: 30%;
+  min-width: 100px;
+}
+
+.btnRight {
+  width: 30%;
+  min-width: 100px;
+}
+
+.btnCenter {
+  width: 30%;
+  min-width: 100px;
+}
+
+.danger {
+  background: #cd5c5c;
+}
+
+.success {
+  background: #008080;
+}
+
+.warning {
+  background: #ff8c00;
+}
+
+@media (max-width: 750px) {
+  .btnGroup {
+    display: block;
+  }
+  .btnLeft,
+  .btnRight,
+  .btnCenter {
+    width: 100%;
+    margin: 15px 0;
+  }
+}
